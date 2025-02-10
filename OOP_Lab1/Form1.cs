@@ -28,7 +28,7 @@ namespace OOP_Lab1
             MessageBox.Show("Лабораторная работа 1, 23ВП1, Сёмкин К.М. Ермаков Д.А.", "Лабораторная работа №1");
         }
 
-        private void infBtn_Click(object sender, EventArgs e)
+        private void writeAll_Click(object sender, EventArgs e)
         {
             ToStringTB.Text = _operator.ToString();
         }
@@ -38,6 +38,32 @@ namespace OOP_Lab1
         {
             //throw new System.NotImplementedException();
         }
-        
+
+        private void writeSlctd_Click(object sender, EventArgs e) {
+            string res = "";
+            if (name_chb.Checked) {
+                res += "\r\nName: " + _operator.getName();
+            }
+            if (region_chb.Checked) {
+                res += "\r\nRegion: " + _operator.getRegion();
+            }
+            if (price_chb.Checked) {
+                res += "\r\nPrice: " + _operator.getPrice();
+            }
+            if (abonentCount_chb.Checked) {
+                res += "\r\nAbonent count: " + _operator.getAbonentCount();
+            }
+            if (age_chb.Checked) {
+                res += "\r\nAge: " + _operator.getAge();
+            }
+            if (benefits_chb.Checked) {
+                res += "\r\nBenefits: " + _operator.getBenefits();
+            }
+            if (supports5g_chb.Checked) {
+                res += "\r\n5G support: " + _operator.get5gSupport();
+            }
+
+            ToStringTB.Text = res.Substring(2);
+        }
     }
 }

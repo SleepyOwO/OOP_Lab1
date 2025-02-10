@@ -33,7 +33,7 @@ namespace OOP_Lab1.MyClass {
             _supports5g = false;
 
         }
-        
+            
         public InternetOp(string name, int price) {
 
             _name = name;
@@ -59,13 +59,40 @@ namespace OOP_Lab1.MyClass {
 
         }
 
-        public override string ToString()
-        {
-            return "name: " + _name + "\r\nregion: " + _region + "\r\nprice: " + _price + 
-                   "\r\nabonent count: " + _abonentCount + "\r\nage: " + _age + "\r\nbenefints: " + _benefits +
+        public override string ToString() {
+            return "Name: " + _name + "\r\nRegion: " + _region + "\r\nPrice: " + _price + 
+                   "\r\nAbonent count: " + _abonentCount + "\r\nAge: " + _age + "\r\nBenefits: " + _benefits +
                    "\r\n5G support: " + _supports5g;
         }
-        
+
+
+        public string getName() {
+            return _name;
+        }
+
+        public string getRegion() {
+            return _region;
+        }
+
+        public int getPrice() {
+            return _price;
+        }
+
+        public int getAbonentCount() {
+            return _abonentCount;
+        }
+
+        public double getAge() {
+            return _age;
+        }
+
+        public bool getBenefits() {
+            return _benefits;
+        }
+
+        public bool get5gSupport() {
+            return _supports5g;
+        }
         
     }
 }
