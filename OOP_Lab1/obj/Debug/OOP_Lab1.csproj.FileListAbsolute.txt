@@ -1,0 +1,10 @@
+C:\Users\kiril\Desktop\Лабы\2 курс\ООП\OOP_Lab1\OOP_Lab1\bin\Debug\OOP_Lab1.exe.config
+C:\Users\kiril\Desktop\Лабы\2 курс\ООП\OOP_Lab1\OOP_Lab1\bin\Debug\OOP_Lab1.exe
+C:\Users\kiril\Desktop\Лабы\2 курс\ООП\OOP_Lab1\OOP_Lab1\bin\Debug\OOP_Lab1.pdb
+C:\Users\kiril\Desktop\Лабы\2 курс\ООП\OOP_Lab1\OOP_Lab1\obj\Debug\OOP_Lab1.csproj.AssemblyReference.cache
+C:\Users\kiril\Desktop\Лабы\2 курс\ООП\OOP_Lab1\OOP_Lab1\obj\Debug\OOP_Lab1.Properties.Resources.resources
+C:\Users\kiril\Desktop\Лабы\2 курс\ООП\OOP_Lab1\OOP_Lab1\obj\Debug\OOP_Lab1.csproj.GenerateResource.cache
+C:\Users\kiril\Desktop\Лабы\2 курс\ООП\OOP_Lab1\OOP_Lab1\obj\Debug\OOP_Lab1.csproj.CoreCompileInputs.cache
+C:\Users\kiril\Desktop\Лабы\2 курс\ООП\OOP_Lab1\OOP_Lab1\obj\Debug\OOP_Lab1.exe
+C:\Users\kiril\Desktop\Лабы\2 курс\ООП\OOP_Lab1\OOP_Lab1\obj\Debug\OOP_Lab1.pdb
+C:\Users\kiril\Desktop\Лабы\2 курс\ООП\OOP_Lab1\OOP_Lab1\obj\Debug\OOP_Lab1.Form1.resources
